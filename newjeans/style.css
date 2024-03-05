@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Madimi+One&display=swap');
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgb(104, 104, 236);
+    width: 100%;
+    font-size: 30px;
+}
+a{
+    text-decoration: none;
+}
+header ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+header ul li{
+    margin: 15px;
+    color: black;
+}
+
+.inicio {
+    text-align: center;
+    padding: 10px;
+}
+.inicio img {
+    width: 500px;
+    padding: 15px;
+}
+.inicio h1 {
+    text-align: center;
+    font-size: 35px;
+    color: rgb(63, 63, 201);
+    font-family: "Madimi One";
+}
+.inicio p {
+    font-size: 30px;
+    text-align: justify;
+}
+.delboton h1 {
+    text-align: center;
+    font-family: "Madimi One";
+    font-size: 35px;
+    color:rgb(63, 63, 201)
+}
+.delboton p {
+    font-size: 30px;
+    text-align: justify;
+    padding: 10px;
+}
+button{
+    background-color: rgb(44, 167, 167);
+    color: white;
+    padding: 5px;
+    width: 25%;
+    cursor: pointer;
+}
+
+h1 {
+    font-size: 35px;
+    color: rgb(63, 63, 201);
+    font-family: "Madimi One";
+    text-align: center;
+    padding: 10px;
+}
+p {
+    text-align: justify;
+    font-size: 30px;
+    padding: 10px;
+}
+.caja h1{
+    text-align: justify;
+    font-size: 33px;
+    color: rgb(10, 10, 10);
+    padding: 15px;
+}
+.caja p{
+    text-align: justify;
+    font-size: 30px;
+    padding: 10px;
+}
+
+.container {
+    padding: 15px;
+}
+
+.mapa {
+    padding: 10px;
+}
